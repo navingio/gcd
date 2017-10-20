@@ -19,7 +19,9 @@ date: "10/20/2017"
 
 tidy_data.txt can be generated from raw data using the following command. 
 
-``` source ("[path]/run_analysis.R")
+``` 
+source ("[path]/run_analysis.R")
+
 ```
 
 [path] is the file path to run_analysis.R
@@ -29,7 +31,9 @@ The script must be executed in the working directory where the Dataset.zip has b
 
 tidy_data.txt can be loaded as data.frame by using the command:
 
-```data <- read.table("tidy_data.txt", header = TRUE)
+```
+data <- read.table("tidy_data.txt", header = TRUE)
+
 ```
 
 ## Tidy Data Set
